@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class WeatherDetailsPage extends StatelessWidget {
   final Map<String, dynamic> weatherData;
   final String selectedDate;
-  final String selectedTime; //  Add selected time
+  final String selectedTime;
 
   WeatherDetailsPage({
     required this.weatherData,

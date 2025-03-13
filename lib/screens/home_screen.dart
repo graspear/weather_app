@@ -28,7 +28,6 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
-  // Function to pick a time
   Future<void> _selectTime(BuildContext context) async {
     final TimeOfDay? picked = await showTimePicker(
       context: context,
@@ -87,7 +86,6 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // City Input Field
             TextField(
               controller: cityController,
               decoration: InputDecoration(
